@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Email</title>
+</head>
+<body>
+
+    <main class="main__container">
+
+        <div class="container__principal">
+
+            <div class="infos__principal">
+
+                <img class="logo" src="images/logo.svg" alt="logo">
+
+                <h1 class="h1__principal">Atualização em breve!</h1>
+
+                <p class="p__principal ">Escreva seu e-mail abaixo e receba as próximas atualizações sem precisar ficar dando f5 em nossa página :)</p>
+
+
+                <div class="infos__form">
+
+                    <input type="email" placeholder="Digite seu e-mail" class="input__email">
+
+                    <input type="password" style="display: none;" value="123456789" class="input__pass">
+
+                    <button class="btn__enviar">Enviar</button>  
+                </div>
+                   
+            </div>  <!--INFO PRINCIPAL-->
+
+            <img class="img__mulher" src="images/hero-desktop.jpg" alt="hero-desktop">
+
+        </div> <!--CONTAINER PRINCIPAL-->
+        
+    </main>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+    <script src="js/connection.js"></script>
+    <script src="js/email.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
